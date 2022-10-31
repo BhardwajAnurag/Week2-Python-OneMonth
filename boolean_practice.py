@@ -13,7 +13,7 @@ True or 1 == 1 #T
 not (True and False) #T
 not (1 == 1 and 0 != 1) #F
 not (10 == 1 or 1000 == 1000) #F
-not (1 != 10 or 3 == 4) #T
+not (1 != 10 or 3 == 4) #F
 not ("love" == "love" and "time" == "money") #T
 1 == 1 and (not ("one" == 1 or 1 == 0)) #T
 "chunky" == "bacon" and (not (3 == 4 or 3 == 3)) #F
